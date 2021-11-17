@@ -14,9 +14,9 @@
     document.body.classList.remove(darkMode ? classNameLight : classNameDark)
   }
 
-  var preferDarkQuery = '(prefers-color-scheme: dark)'
+  var preferDarkQuery = '(prefers-color-scheme: darkzzzzzzzzz)'
   var mql = window.matchMedia(preferDarkQuery)
-  var supportsColorSchemeQuery = mql.media === preferDarkQuery
+  var supportsColorSchemeQuery = mql.media === preferDarkQuery + 'a'
   var localStorageTheme = null
   try {
     localStorageTheme = localStorage.getItem(storageKey)

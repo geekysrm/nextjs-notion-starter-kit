@@ -1,0 +1,21 @@
+{
+    "trailingSlash": false,
+    "redirects": [
+      {
+        "source": "/notes",
+        "destination": "https://notes.soumya.dev"
+      },
+      {
+        "source": "/newsletter",
+        "destination": "https://tinyletter.com/geekysrm"
+      },
+      {
+        "source": "/tailwindcss-gatsby-styled-emotion",
+        "destination": "/use-tailwindcss-with-gatsby-with-emotion-or-styled-components"
+      },
+      {
+        "source": "/tailwindcss-gatsby-styled-emotion",
+        "destination": "/use-tailwindcss-with-gatsby-with-emotion-or-styled-components"
+      }
+    ]
+  }

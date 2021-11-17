@@ -88,9 +88,9 @@ export const NotionPage: React.FC<types.PageProps> = ({
   const isLiteMode = lite === 'true'
   const searchParams = new URLSearchParams(params)
 
-  if (typeof window !== "undefined") {
-    window.matchMedia = null;
-}
+  if (typeof window !== 'undefined') {
+    window.matchMedia = null
+  }
   const darkMode = useDarkMode(false, { classNameDark: 'dark-mode' })
 
   if (router.isFallback) {
@@ -106,7 +106,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
 
   const title = getBlockTitle(block, recordMap) || site.name
 
-  if(config?.isDev) {
+  if (config?.isDev) {
     console.log('notion page', {
       isDev: config.isDev,
       title,
@@ -167,10 +167,6 @@ export const NotionPage: React.FC<types.PageProps> = ({
   } else {
     pageAside = <PageSocial />
   }
-
-  React.useEffect(() => {
-    darkMode.disable()
-  }, [])
 
   return (
     <TwitterContextProvider

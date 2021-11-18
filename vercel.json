@@ -20,10 +20,6 @@
     {
       "source": "/tailwindcss-gatsby-styled-emotion",
       "destination": "/use-tailwindcss-with-gatsby-with-emotion-or-styled-components"
-    },
-    {
-      "source": "/tailwindcss-gatsby-styled-emotion",
-      "destination": "/use-tailwindcss-with-gatsby-with-emotion-or-styled-components"
     }
   ]
 }

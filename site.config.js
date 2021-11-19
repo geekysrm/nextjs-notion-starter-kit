@@ -12,7 +12,8 @@ module.exports = {
   author: 'Soumya Ranjan Mohanty',
 
   // open graph metadata (optional)
-  description: 'Personal website of Soumya Ranjan Mohanty aka geekySRM, Software Developer from India',
+  description:
+    'Personal website of Soumya Ranjan Mohanty aka geekySRM, Software Developer from India',
   socialImageTitle: 'Soumya Ranjan Mohanty',
   socialImageSubtitle: 'Hello World! 👋',
 
@@ -32,7 +33,7 @@ module.exports = {
   imageCDNHost: null,
 
   // Utteranc.es comments via GitHub issue comments (optional)
-  utterancesGitHubRepo: null,
+  utterancesGitHubRepo: 'geekysrm/blog-comments',
 
   // whether or not to enable support for LQIP preview images (optional)
   // NOTE: this requires you to set up Google Firebase and add the environment

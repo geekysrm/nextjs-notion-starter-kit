@@ -30,7 +30,7 @@ module.exports = {
 
   // image CDN host to proxy all image requests through (optional)
   // NOTE: this requires you to set up an external image proxy
-  imageCDNHost: 'https://res.cloudinary.com/geekysrm/image/fetch/q_auto,f_auto',
+  imageCDNHost: 'https://res.cloudinary.com/geekysrm/image/fetch/q_70,f_auto',
 
   // Utteranc.es comments via GitHub issue comments (optional)
   utterancesGitHubRepo: 'geekysrm/blog-comments',
